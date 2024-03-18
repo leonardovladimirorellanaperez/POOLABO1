@@ -9,11 +9,11 @@ class Calculadora {
         return x - y;
     }
 
-    public double multiplicacion(double x, double y) {
+    public double multiplicar(double x, double y) {
         return x * y;
     }
 
-    public double dividicion(double x, double y) {
+    public double dividir(double x, double y) {
         if (y != 0) {
             return x / y;
         } else {
@@ -70,7 +70,7 @@ public class Main {
                 System.out.println("Gracias por usarme :).");
                 break;
             default:
-                System.out.println("Opcion no valida.");
+                System.out.println("Opción no valida.");
         }
     }
 }
